@@ -1,0 +1,226 @@
+
+html{
+ background-color: pink;
+ margin: 0;
+ height: 100%;
+ overflow: hidden;
+}
+
+.box{
+    background-color: pink;
+    position: absolute;
+    justify-content:center;
+    align-items: center; 
+    display:flex;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    background-image: 
+    linear-gradient(45deg, #e2afe0 25%, transparent 25%),
+    linear-gradient(-45deg, #e2afe0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #e2afe0 75%),
+    linear-gradient(-45deg, transparent 75%, #e2afe0 75%);
+    background-size: 150px 150px;
+    background-position: 0 0, 0 75px, 75px -75px, -75px 0px;
+}
+
+.box16{ z-index: 1; flex-direction: column;font-size:10vw;}
+.box15{ z-index: 2; }
+.box14{ z-index: 3; }
+.box13{ z-index: 4; }
+.box12{ z-index: 5; }
+.box11{ z-index: 6; }
+.box10{ z-index: 7; }
+.box9{  z-index: 8; }
+.box8{  z-index: 9; }
+.box7{ z-index: 10; }
+.box6{ z-index: 11; }
+.box5{ z-index: 12; }
+.box4{ z-index: 13; }
+.box3{ z-index: 14; }
+.box2{ z-index: 15; }
+.box1{ z-index: 16; }
+.box0{ z-index: 17; flex-direction: column;font-size:10vw;}
+
+
+.main {
+ display:flex;
+ justify-content: space-between;
+ align-items:    center; 
+ flex-direction: column;
+ gap: 1vh;
+ width:  83%;
+ height: 60%;
+}
+
+.flexbox {
+ display:flex;
+ justify-content: space-between;
+ align-items:    center; 
+ flex-direction: column;
+ gap: 1vh;
+ width:  83%;
+ height: 75%;
+}
+
+
+.tittle {width: 100%;}
+.head { width: 60%;}
+
+
+.box-button {
+  cursor: pointer;
+  border: 10px solid black;
+  background-color: gray;
+  padding-bottom: 1vh;
+  transition: 0.1s ease-in-out;
+  user-select: none;
+  width:60%;
+  height: 10vh;
+  font-size: 3vh;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #dddddd;
+  border: 15px solid #fff;
+  padding: 3px 8px;
+  display: block;
+  height: 60%;
+  text-align: center;
+}
+
+.button span {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.box-button:active {
+  padding: 0;
+  margin-bottom: 1vh;
+  transform: translateY(1vh);
+}
+
+
+.heading {
+    font-size: 8vw;
+    text-align: center;
+    width: 93%;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-weight: 800;
+}
+
+.main_head {
+    outline: 0.5vh solid black;
+    border: 1vh solid #fff;
+    padding: 2vh;
+    background-color: rgb(217, 217, 217);
+}
+
+.level_head {
+    outline: 0.5vh solid black;
+    border: 1vh solid #fff;
+    margin-bottom: 1vh;
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+.heart {
+    display:flex;
+    justify-content: space-between;
+    -webkit-text-stroke: 0.5vh #ffffff;
+    align-items: center; 
+    width: 80%;
+    font-size: 10vw;
+}
+
+.red { color: red; }
+
+.question {
+    width: 93%;
+    height: 60%;
+    border: 1vh solid #fff;
+    outline: 0.5vh solid black;
+    background-color: rgb(255, 251, 215);
+    overflow: scroll;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center; 
+    width: 100%;
+    height: 45%;
+}
+
+
+.box-answer {
+  cursor: pointer;
+  border: 10px solid black;
+  background-color: gray;
+  padding-bottom: 1vh;
+  transition: 0.1s ease-in-out;
+  user-select: none;
+  width:45%;
+  height: 10vh;
+  font-size: 4vh;
+}
+
+.answer {
+  background-color: #dddddd;
+  border: 15px solid #fff;
+  padding: 3px 8px;
+  display: block;
+  height: 60%;
+  text-align: center;
+ 
+}
+
+.answer  i {
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 1vh;
+  color: #dddddd;
+
+}
+
+.box-answer:active {
+  padding: 0;
+  margin-bottom: 1vh;
+  transform: translateY(1vh);
+}
+
+
+.answer1>i{transform: rotate(-90deg);}
+.answer3>i{-webkit-text-stroke: 10px #dddddd;}
+.answer1{background-color: red;}
+.answer2{background-color: yellow;}
+.answer3{background-color: green;}
+.answer4{background-color: blue;}
+
+.wrap {
+    margin: 5vw ;
+    font-size: 3.6vw;
+    font-family: "Yuanti SC", "YouYuan", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.reply1>i{transform: rotate(-90deg);}
+.reply3>i{-webkit-text-stroke: 1vw #000000;}
+
+.video{
+    width: 80%;
+    height: auto;
+    border: 0.5vh solid #000000;
+}
+
+.button_done{
+    visibility: hidden;
+}
